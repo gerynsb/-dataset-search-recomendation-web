@@ -1,0 +1,401 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+
+<https://kaggle.com/achmadnoer/alfabet-bisindo> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "achmadnoer" ;
+    dcat:description "Bahasa Isyarat Indonesia (BISINDO) is a sign language that applies in Indonesia."@id ;
+    dcat:distribution <https://kaggle.com/achmadnoer/alfabet-bisindo/distribution> ;
+    dcat:mediaType "JPG" ;
+    dcat:theme <http://example.org/category/classification>,
+        <http://example.org/category/computer%20vision>,
+        <http://example.org/category/education>,
+        <http://example.org/category/image>,
+        <http://example.org/category/languages> ;
+    dcat:title "Bahasa Isyarat Indonesia (BISINDO) Alphabets"@id .
+
+<https://kaggle.com/adhang/air-quality-in-yogyakarta-indonesia-2021> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "adhang" ;
+    dcat:description "Hourly measurement of air pollution"@id ;
+    dcat:distribution <https://kaggle.com/adhang/air-quality-in-yogyakarta-indonesia-2021/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/beginner>,
+        <http://example.org/category/earth%20and%20nature>,
+        <http://example.org/category/environment>,
+        <http://example.org/category/pollution>,
+        <http://example.org/category/tabular> ;
+    dcat:title "Air Quality in Yogyakarta, Indonesia (2021)"@id .
+
+<https://kaggle.com/anandhuh/population-indonasia> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "anandhuh" ;
+    dcat:description "Historical Population. Population Forecast, Population in Major Cities"@id ;
+    dcat:distribution <https://kaggle.com/anandhuh/population-indonasia/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/asia>,
+        <http://example.org/category/exploratory%20data%20analysis>,
+        <http://example.org/category/global>,
+        <http://example.org/category/public%20health>,
+        <http://example.org/category/social%20science> ;
+    dcat:title "Population of Indonesia (2050-1955)"@id .
+
+<https://kaggle.com/anggagewor/data-wilayah-republic-indonesia> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "anggagewor" ;
+    dcat:description "Kaggle is the world’s largest data science community with powerful tools and resources to help you achieve your data science goals."@id ;
+    dcat:distribution <https://kaggle.com/anggagewor/data-wilayah-republic-indonesia/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:title "Data Wilayah Republic Indonesia"@id .
+
+<https://kaggle.com/ardikasatria/datasettanamanpadisumatera> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "ardikasatria" ;
+    dcat:description "Dataset Hasil Produksi dari tahun 1993-2020"@id ;
+    dcat:distribution <https://kaggle.com/ardikasatria/datasettanamanpadisumatera/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/agriculture>,
+        <http://example.org/category/data%20analytics>,
+        <http://example.org/category/ensembling>,
+        <http://example.org/category/regression>,
+        <http://example.org/category/tabular> ;
+    dcat:title "Dataset Tanaman Padi Sumatera, Indonesia"@id .
+
+<https://kaggle.com/ariffaizin/indonesia-election-news-berita-pemilu-2024> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "ariffaizin" ;
+    dcat:description "The Indonesia Election News Dataset 2024 (Berita Pemilu 2024) in detik.com"@id ;
+    dcat:distribution <https://kaggle.com/ariffaizin/indonesia-election-news-berita-pemilu-2024/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/indonesian>,
+        <http://example.org/category/news>,
+        <http://example.org/category/nlp>,
+        <http://example.org/category/politics> ;
+    dcat:title "Indonesia Election News Dataset 2024"@id .
+
+<https://kaggle.com/ermila/klasifikasi-tingkat-kemiskinan-di-indonesia> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "ermila" ;
+    dcat:description "Klasifikasi Tingkat Kemiskinan Menggunakan Regresi Logistik"@id ;
+    dcat:distribution <https://kaggle.com/ermila/klasifikasi-tingkat-kemiskinan-di-indonesia/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:title "Klasifikasi Tingkat Kemiskinan di Indonesia"@id .
+
+<https://kaggle.com/gantisumpah/indonesian-local-perfume-brand> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "gantisumpah" ;
+    dcat:description "An Indonesian legit local perfume brands dataset of 154"@id ;
+    dcat:distribution <https://kaggle.com/gantisumpah/indonesian-local-perfume-brand/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/categorical>,
+        <http://example.org/category/data%20cleaning>,
+        <http://example.org/category/retail%20and%20shopping>,
+        <http://example.org/category/text> ;
+    dcat:title "Indonesian Local Perfume Brands"@id .
+
+<https://kaggle.com/ilhamfp31/indonesian-abusive-and-hate-speech-twitter-text> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "ilhamfp31" ;
+    dcat:description "Multi-Labeled Hate Speech and Abusive Indonesian Twitter Text by okkyibrohim"@id ;
+    dcat:distribution <https://kaggle.com/ilhamfp31/indonesian-abusive-and-hate-speech-twitter-text/distribution> ;
+    dcat:mediaType "BIB",
+        "CSV",
+        "MD" ;
+    dcat:theme <http://example.org/category/computer%20science>,
+        <http://example.org/category/internet>,
+        <http://example.org/category/nlp>,
+        <http://example.org/category/software>,
+        <http://example.org/category/text> ;
+    dcat:title "Indonesian Abusive and Hate Speech Twitter Text"@id .
+
+<https://kaggle.com/imamdigmi/indonesian-plate-number> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "imamdigmi" ;
+    dcat:description "Plate number of Indramayu / Cirebon Area (E)"@id ;
+    dcat:distribution <https://kaggle.com/imamdigmi/indonesian-plate-number/distribution> ;
+    dcat:mediaType "XML" ;
+    dcat:theme <http://example.org/category/image>,
+        <http://example.org/category/law>,
+        <http://example.org/category/pre-trained%20model> ;
+    dcat:title "Indonesian Plate Number"@id .
+
+<https://kaggle.com/kekavigi/earthquakes-in-indonesia> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "kekavigi" ;
+    dcat:description "List of earthquakes recorded by Indonesia's BMKG agency."@id ;
+    dcat:distribution <https://kaggle.com/kekavigi/earthquakes-in-indonesia/distribution> ;
+    dcat:mediaType "CSV",
+        "TSV" ;
+    dcat:theme <http://example.org/category/asia>,
+        <http://example.org/category/earth%20science>,
+        <http://example.org/category/geology>,
+        <http://example.org/category/geospatial%20analysis> ;
+    dcat:title "Earthquakes in Indonesia"@id .
+
+<https://kaggle.com/linkgish/indonesian-salary-by-region-19972022> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "linkgish" ;
+    dcat:description "Indonesian monthly minimum salary (UMR) in Rupiah (IDR)"@id ;
+    dcat:distribution <https://kaggle.com/linkgish/indonesian-salary-by-region-19972022/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/economics> ;
+    dcat:title "Indonesian Salary by Region (1997-2022)"@id .
+
+<https://kaggle.com/muamkh/ihsgstockdata> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "muamkh" ;
+    dcat:description "Contains all the stocks in Jakarta Composite Index/IHSG (minutes, hourly, daily)"@id ;
+    dcat:distribution <https://kaggle.com/muamkh/ihsgstockdata/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/economics>,
+        <http://example.org/category/finance>,
+        <http://example.org/category/investing>,
+        <http://example.org/category/tabular>,
+        <http://example.org/category/time%20series%20analysis> ;
+    dcat:title "Dataset Saham Indonesia / Indonesia Stock Dataset"@id .
+
+<https://kaggle.com/muhammadhabibna/hospital-data-in-indonesia> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "muhammadhabibna" ;
+    dcat:description "📊 Hospital Data in Indonesia 🏥 (Complete with Class, Ownership and Capacity)🏥"@id ;
+    dcat:distribution <https://kaggle.com/muhammadhabibna/hospital-data-in-indonesia/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/health>,
+        <http://example.org/category/hospitals%20and%20treatment%20centers> ;
+    dcat:title "Hospital data in Indonesia"@id .
+
+<https://kaggle.com/pramudyadika/yogyakarta-housing-price-ndonesia> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "pramudyadika" ;
+    dcat:description "Scraped from rumah123.com (20/03/2024 - 21/05/2024)"@id ;
+    dcat:distribution <https://kaggle.com/pramudyadika/yogyakarta-housing-price-ndonesia/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/categorical>,
+        <http://example.org/category/housing>,
+        <http://example.org/category/indonesian> ;
+    dcat:title "Yogyakarta Housing Price (Indonesia)"@id .
+
+<https://kaggle.com/rezkyyayang/pekerja-sejahtera> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "rezkyyayang" ;
+    dcat:description "Dataset kesejahteraan pekerja dilihat dari pendapatan/upah dan pengeluaran."@id ;
+    dcat:distribution <https://kaggle.com/rezkyyayang/pekerja-sejahtera/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/cities%20and%20urban%20areas>,
+        <http://example.org/category/economics>,
+        <http://example.org/category/jobs%20and%20career>,
+        <http://example.org/category/r>,
+        <http://example.org/category/social%20issues%20and%20advocacy> ;
+    dcat:title "Kesejahteraan Pekerja Indonesia"@id .
+
+<https://kaggle.com/safrizalardanaa/produk-ecommerce-indonesia> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "safrizalardanaa" ;
+    dcat:description "This dummy dataset describes product data from an e-commerce."@id ;
+    dcat:distribution <https://kaggle.com/safrizalardanaa/produk-ecommerce-indonesia/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/data%20visualization>,
+        <http://example.org/category/exploratory%20data%20analysis>,
+        <http://example.org/category/indonesian> ;
+    dcat:title "Fashion E-Commerce Products Indonesia"@id .
+
+<https://kaggle.com/sh1zuka/indonesia-news-dataset-2024> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "sh1zuka" ;
+    dcat:description "Aggregated from 3 news sources"@id ;
+    dcat:distribution <https://kaggle.com/sh1zuka/indonesia-news-dataset-2024/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/news>,
+        <http://example.org/category/nlp>,
+        <http://example.org/category/summarization>,
+        <http://example.org/category/text>,
+        <http://example.org/category/text%20classification> ;
+    dcat:title "Indonesia News Dataset (2024)"@id .
+
+<https://kaggle.com/thedevastator/tourists-attractions-in-indonesia> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "thedevastator" ;
+    dcat:description "Indonesia's points of interest"@id ;
+    dcat:distribution <https://kaggle.com/thedevastator/tourists-attractions-in-indonesia/distribution> ;
+    dcat:mediaType "CSV" ;
+    dcat:theme <http://example.org/category/transportation>,
+        <http://example.org/category/travel> ;
+    dcat:title "Tourists Attractions In Indonesia"@id .
+
+<https://kaggle.com/tiwill/saham-idx> a schema1:Dataset,
+        dcat:Dataset ;
+    dcat:creator "tiwill" ;
+    dcat:description "Pergerakan saham-saham di Bursa Efek Indonesia"@id ;
+    dcat:distribution <https://kaggle.com/tiwill/saham-idx/distribution> ;
+    dcat:mediaType "CSV",
+        "GITIGNORE",
+        "MD",
+        "YML" ;
+    dcat:theme <http://example.org/category/beginner>,
+        <http://example.org/category/economics>,
+        <http://example.org/category/time%20series%20analysis> ;
+    dcat:title "Pergerakan Saham di Bursa Efek Indonesia"@id .
+
+<http://example.org/category/agriculture> rdfs:label "agriculture" .
+
+<http://example.org/category/cities%20and%20urban%20areas> rdfs:label "cities and urban areas" .
+
+<http://example.org/category/classification> rdfs:label "classification" .
+
+<http://example.org/category/computer%20science> rdfs:label "computer science" .
+
+<http://example.org/category/computer%20vision> rdfs:label "computer vision" .
+
+<http://example.org/category/data%20analytics> rdfs:label "data analytics" .
+
+<http://example.org/category/data%20cleaning> rdfs:label "data cleaning" .
+
+<http://example.org/category/data%20visualization> rdfs:label "data visualization" .
+
+<http://example.org/category/earth%20and%20nature> rdfs:label "earth and nature" .
+
+<http://example.org/category/earth%20science> rdfs:label "earth science" .
+
+<http://example.org/category/education> rdfs:label "education" .
+
+<http://example.org/category/ensembling> rdfs:label "ensembling" .
+
+<http://example.org/category/environment> rdfs:label "environment" .
+
+<http://example.org/category/finance> rdfs:label "finance" .
+
+<http://example.org/category/geology> rdfs:label "geology" .
+
+<http://example.org/category/geospatial%20analysis> rdfs:label "geospatial analysis" .
+
+<http://example.org/category/global> rdfs:label "global" .
+
+<http://example.org/category/health> rdfs:label "health" .
+
+<http://example.org/category/hospitals%20and%20treatment%20centers> rdfs:label "hospitals and treatment centers" .
+
+<http://example.org/category/housing> rdfs:label "housing" .
+
+<http://example.org/category/internet> rdfs:label "internet" .
+
+<http://example.org/category/investing> rdfs:label "investing" .
+
+<http://example.org/category/jobs%20and%20career> rdfs:label "jobs and career" .
+
+<http://example.org/category/languages> rdfs:label "languages" .
+
+<http://example.org/category/law> rdfs:label "law" .
+
+<http://example.org/category/politics> rdfs:label "politics" .
+
+<http://example.org/category/pollution> rdfs:label "pollution" .
+
+<http://example.org/category/pre-trained%20model> rdfs:label "pre-trained model" .
+
+<http://example.org/category/public%20health> rdfs:label "public health" .
+
+<http://example.org/category/r> rdfs:label "r" .
+
+<http://example.org/category/regression> rdfs:label "regression" .
+
+<http://example.org/category/retail%20and%20shopping> rdfs:label "retail and shopping" .
+
+<http://example.org/category/social%20issues%20and%20advocacy> rdfs:label "social issues and advocacy" .
+
+<http://example.org/category/social%20science> rdfs:label "social science" .
+
+<http://example.org/category/software> rdfs:label "software" .
+
+<http://example.org/category/summarization> rdfs:label "summarization" .
+
+<http://example.org/category/text%20classification> rdfs:label "text classification" .
+
+<http://example.org/category/transportation> rdfs:label "transportation" .
+
+<http://example.org/category/travel> rdfs:label "travel" .
+
+<https://kaggle.com/achmadnoer/alfabet-bisindo/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/achmadnoer/alfabet-bisindo/download> .
+
+<https://kaggle.com/adhang/air-quality-in-yogyakarta-indonesia-2021/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/adhang/air-quality-in-yogyakarta-indonesia-2021/download> .
+
+<https://kaggle.com/anandhuh/population-indonasia/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/anandhuh/population-indonasia/download> .
+
+<https://kaggle.com/anggagewor/data-wilayah-republic-indonesia/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/anggagewor/data-wilayah-republic-indonesia/download> .
+
+<https://kaggle.com/ardikasatria/datasettanamanpadisumatera/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/ardikasatria/datasettanamanpadisumatera/download> .
+
+<https://kaggle.com/ariffaizin/indonesia-election-news-berita-pemilu-2024/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/ariffaizin/indonesia-election-news-berita-pemilu-2024/download> .
+
+<https://kaggle.com/ermila/klasifikasi-tingkat-kemiskinan-di-indonesia/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/ermila/klasifikasi-tingkat-kemiskinan-di-indonesia/download> .
+
+<https://kaggle.com/gantisumpah/indonesian-local-perfume-brand/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/gantisumpah/indonesian-local-perfume-brand/download> .
+
+<https://kaggle.com/ilhamfp31/indonesian-abusive-and-hate-speech-twitter-text/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/ilhamfp31/indonesian-abusive-and-hate-speech-twitter-text/download> .
+
+<https://kaggle.com/imamdigmi/indonesian-plate-number/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/imamdigmi/indonesian-plate-number/download> .
+
+<https://kaggle.com/kekavigi/earthquakes-in-indonesia/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/kekavigi/earthquakes-in-indonesia/download> .
+
+<https://kaggle.com/linkgish/indonesian-salary-by-region-19972022/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/linkgish/indonesian-salary-by-region-19972022/download> .
+
+<https://kaggle.com/muamkh/ihsgstockdata/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/muamkh/ihsgstockdata/download> .
+
+<https://kaggle.com/muhammadhabibna/hospital-data-in-indonesia/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/muhammadhabibna/hospital-data-in-indonesia/download> .
+
+<https://kaggle.com/pramudyadika/yogyakarta-housing-price-ndonesia/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/pramudyadika/yogyakarta-housing-price-ndonesia/download> .
+
+<https://kaggle.com/rezkyyayang/pekerja-sejahtera/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/rezkyyayang/pekerja-sejahtera/download> .
+
+<https://kaggle.com/safrizalardanaa/produk-ecommerce-indonesia/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/safrizalardanaa/produk-ecommerce-indonesia/download> .
+
+<https://kaggle.com/sh1zuka/indonesia-news-dataset-2024/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/sh1zuka/indonesia-news-dataset-2024/download> .
+
+<https://kaggle.com/thedevastator/tourists-attractions-in-indonesia/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/thedevastator/tourists-attractions-in-indonesia/download> .
+
+<https://kaggle.com/tiwill/saham-idx/distribution> a dcat:Distribution ;
+    dcat:downloadURL <https://kaggle.com/tiwill/saham-idx/download> .
+
+<http://example.org/category/asia> rdfs:label "asia" .
+
+<http://example.org/category/beginner> rdfs:label "beginner" .
+
+<http://example.org/category/categorical> rdfs:label "categorical" .
+
+<http://example.org/category/exploratory%20data%20analysis> rdfs:label "exploratory data analysis" .
+
+<http://example.org/category/image> rdfs:label "image" .
+
+<http://example.org/category/news> rdfs:label "news" .
+
+<http://example.org/category/time%20series%20analysis> rdfs:label "time series analysis" .
+
+<http://example.org/category/indonesian> rdfs:label "indonesian" .
+
+<http://example.org/category/nlp> rdfs:label "nlp" .
+
+<http://example.org/category/tabular> rdfs:label "tabular" .
+
+<http://example.org/category/text> rdfs:label "text" .
+
+<http://example.org/category/economics> rdfs:label "economics" .
+
