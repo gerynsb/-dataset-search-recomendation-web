@@ -4,6 +4,6 @@ Project Ini mengambil data API dari 20 dataset di kaggle dan menampilkannya seba
 
 ![image](https://github.com/user-attachments/assets/a95ade35-1f1b-4807-bb8d-79340b1d2b75)
 
-![image](https://github.com/user-attachments/assets/f57583b3-d9c3-45c9-afe5-9234fbe1f5e6)
+![image](https://github.com/user-attachments/assets/0c76d894-1570-4b47-8d26-33a994f1fa9d)
 
-![image](https://github.com/user-attachments/assets/489389bd-7516-4e07-9366-d6c510791a1c)
+![image](https://github.com/user-attachments/assets/8f7b97c6-d7f9-4982-8dd4-34f990bcb900)
